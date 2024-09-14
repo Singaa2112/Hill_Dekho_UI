@@ -14,10 +14,11 @@
         <div class="ml-5">
             <div><img src="/birdlogo.jpg" alt=""></div>
         </div>
-        <div class="">
-            <div class=" ml-2 mb-2 mt-2 flex space-x-2 border-2 rounded-lg"> <img class="ml-2 mt-2 mb-2"
-                    src="/search.jpg" alt="">
-                <input type="text" placeholder="Search Destination" class="placeholder-green-600 rounded-lg">
+        <div class="flex">
+            <!-- <div class=" ml-2 mb-2 mt-2 flex space-x-2 border-2 rounded-lg"> -->
+                 <label for="search"><img class="ml-2 mt-2 mb-2"
+                    src="/search.jpg" alt=""></label>
+                <input  type="text" id="search" placeholder="Search Destination" class="hover:font-semibold text-center placeholder-green-900 rounded-lg placeholder:w-auto">
             </div>
 
         </div>
@@ -28,11 +29,12 @@
 
 
     </nav>
+    <div class="flex border-8">
     <div class="flex">
         <div>
             <div>
                 <!-- Mesmerising Meghalaya -->
-                <div class="ml-10 font-bold text-3xl leading-10 mt-5">Mesmerising Meghalaya</div>
+                <div class="ml-10 font-bold text-3xl leading-10 mt-4">Mesmerising Meghalaya</div>
                 <div class="ml-10 mt-3 rounded-sm flex space-x-4">
                     <img src="/dvni.jpg" alt="">
 
@@ -47,27 +49,35 @@
                 <div> <img src="/img 4.jpg" alt=""></div>
             </div>
         </div>
-        <!-- Guest Info  -->
-        <div class="bg-white rounded-xl shadow-lg w-80 ml-5 h-1/2">
-            <div class="mt-4 ml-4">
-                <label for="name" class="block text-sm mt-3 font-medium text-gray-700">Name</label>
-                <input type="text" id="name" placeholder="Enter Full Name"
-                    class="mt-1 block w-full max-w-xs px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
-                <label for="email" class="block text-sm  font-medium text-gray-700">Email</label>
-                <input type="text" id="email" placeholder="Enter your Email ID"
-                    class="mt-1 block w-full max-w-xs px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
-                <label for="phone number" class="block text-sm font-medium text-gray-700">Phone Number</label>
-                <input type="number" id="phone number" placeholder="Enter your Phone Number"
-                    class="mt-1 block w-full max-w-xs px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
-                <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
-                <textarea rows="4" type="text" id="message" placeholder="Your message to us"
-                    class="mt-1 block w-full max-w-xs px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"></textarea>
-                <button class="text-center hover:font-semibold ml-4 mt-6 bg-teal-300 w-60 rounded-sm">Book</button>
-
-            </div>
+       
+        
+        
+    </div>
+     <!-- Guest Info form -->
+     <div class="bg-white rounded-xl shadow-lg w-1/3 flex flex-col justify-center ml-5 h-auto p-6 space-y-6">
+        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+        <input type="text" id="name" placeholder="Enter Full Name"
+            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+        
+        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+        <input type="text" id="email" placeholder="Enter your Email ID"
+            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+        
+        <label for="phone number" class="block text-sm font-medium text-gray-700">Phone Number</label>
+        <input type="text" id="phone number" placeholder="Enter your Phone Number"
+            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+        
+        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+        <textarea rows="4" id="message" placeholder="Your message to us"
+            class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"></textarea>
+        
+        <div class="flex justify-center">
+            <button class="text-center hover:font-semibold bg-teal-300 w-60 py-2 rounded-md">Book</button>
         </div>
-
-
+    </div>
+    
+    
+        </div>
     </div>
 
     </div>
